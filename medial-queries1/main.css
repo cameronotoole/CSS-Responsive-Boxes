@@ -9,27 +9,20 @@ body {
   min-height: 100vh;
 }
 
-.a {
-  display: flex;
-  flex-grow: 2;
-  border: 0.2em solid #000;
-}
-
-.b {
-  display: flex;
-  flex-grow: 3;
-  border: 0.2em solid #000;
-}
-.c {
-  display: flex;
-  flex-grow: 3;
-  border: 0.2em solid #000;
-}
-
+.a,
 .d {
   display: flex;
   flex-grow: 2;
   border: 0.2em solid #000;
+  margin: 0.5em;
+}
+
+.b,
+.c {
+  display: flex;
+  flex-grow: 3;
+  border: 0.2em solid #000;
+  margin: 0.5em;
 }
 
 @media (min-width: 600px) {
@@ -44,6 +37,6 @@ body {
   .b,
   .c,
   .d {
-    margin: 2em;
+    margin: 0.5em;
   }
 }
